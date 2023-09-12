@@ -1,0 +1,265 @@
+* {
+    font-family: 'Cinzel', serif;
+    font-family: 'Cookie', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Loved by the King', cursive;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.sidebar {
+    background-color: #000000;
+    width: 300px;
+    border-radius: 1rem;
+
+}
+
+.main-content {
+    background-color: rgb(23, 23, 22);
+    flex: 1;
+    overflow: auto;
+    color: rgb(174, 165, 165);
+    border-radius: 1rem;
+    margin-top: 1px;
+    
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-left: 4px;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+.nav {
+    background-color: rgb(23, 23, 22);
+    border-radius: 1rem;
+    height: 112px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem, 0.75rem;
+    margin-top: 1px;
+    margin-left: 9px;
+    line-height: 2.5rem;
+    padding-left: 1rem;
+    margin-right: 4px;
+
+
+
+}
+
+.nav i {
+    font-size: 1.25rem;
+    opacity: 0.7;
+}
+
+.nav i:hover {
+    opacity: 1;
+}
+
+.library {
+    background-color: rgb(23, 23, 22);
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.72rem;
+    padding: 0.5rem, 0.75rem;
+    width: 280px;
+    margin-left: 9px;
+    line-height: 2.5rem;
+    padding-left: 1rem;
+    margin-right: 4px;
+    position: absolute;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option a {
+    font-size: 20px;
+}
+
+.icon {
+    font-size: 1rem;
+    padding-right: 10px;
+    opacity: 0.7;
+
+}
+
+.icon i {
+    opacity: 0.7;
+    padding-right: 6px;
+}
+
+.icon i:hover {
+    opacity: 1;
+}
+
+.box-1 {
+    background-color: #242424;
+    border-radius: 1rem;
+    height: 8rem;
+    padding-right: 6px;
+    width: 250px;
+
+}
+
+.box-1-p1 {
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+.box-1-p2 {
+    padding-left: 10px;
+    font-size: 0.75rem;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+.box-2 {
+    background-color: #242424;
+    border-radius: 1rem;
+    height: 8rem;
+    padding-right: 6px;
+    width: 250px;
+    margin-top: 8px;
+
+}
+
+.box-2-p1 {
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+.box-2-p2 {
+    padding-left: 10px;
+    font-size: 0.75rem;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+.navbar {
+    background-color: #100f0ff4;
+    height: 61px;
+    border-top-left-radius: 1rem;
+
+    display: flex;
+    justify-content: start;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    opacity: 0.85;
+}
+
+.navbar h4 {
+    color: white;
+}
+
+.btn1 {
+    margin-left: 500px;
+}
+
+.install {
+    margin-left: 50px;
+}
+
+.profile {
+    margin-left: 40px;
+    margin-right: 2px;
+
+}
+
+.container {
+    background-color: rgb(23, 23, 24);
+    
+    width: 100%;
+    margin-top: 62px;
+    margin-bottom: 100px;
+
+}
+.card{
+    height: 265px;
+    width: 200px;
+    background-color: #242424;
+    color: aliceblue;
+    border-radius: 1rem;
+    display: flex;
+    align-items: flex-start;
+}
+.card:hover{
+    background-color: #383838;
+    transition: 0.25s;
+}
+img{
+    border-radius: 1rem;
+    width: 180px;
+    height: 130px;
+    margin: 4px;
+    margin-left: 9px;
+    margin-top: 6px;
+}
+.card-tittle{
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 9px;
+    font-size: large;
+}
+.card-info{
+    color: aliceblue;
+    font-size: smaller;
+    margin-left: 9px;
+    margin-bottom: px;
+    opacity: 0.75;
+}
+.card button{
+ margin-bottom:6px ;
+ margin-left: 4px;
+}
+h3{
+    color: white ;
+    
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+h4
+{   margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.product{
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
